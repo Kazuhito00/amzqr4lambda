@@ -3,11 +3,10 @@
 Amazing-QRを用いて画像ファイルやアニメGifを用いたQRコードが作成できます(埋め込める情報は半角英数字)<br><br>
 <img src="https://user-images.githubusercontent.com/37477845/122220319-2ea2f500-ceeb-11eb-9bf8-2e702e17035f.gif" width="70%">
 
-# Requirement 
-* Pillow 8.2.0 or later 
-
 # Demo
-デモページは以下です。
+デモページは以下です。<br>
+いったん、リクエスト回数を10000回/月に制限しています。<br>
+制限がかかっていてもご容赦ください。<br>
 https://kazuhito00.github.io/amzqr4lambda/html/index.html
 
 # Reference
