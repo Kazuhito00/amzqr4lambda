@@ -10,6 +10,9 @@ Amazing-QRを用いて画像ファイルやアニメGifを用いたQRコード�
 制限がかかっていてもご容赦ください。<br>
 https://kazuhito00.github.io/amzqr4lambda/html/index.html
 
+コーヒーを奢ることで制限が緩和されるかもしれません☕
+<a href="https://www.buymeacoffee.com/Kazuhito00" target="_blank"><br><img src="https://cdn.buymeacoffee.com/buttons/default-white.png" alt="Buy Me A Coffee" height="36" width="170" >
+
 # Reference
 * [x-hw/amazing-qr](https://github.com/x-hw/amazing-qr)
 
