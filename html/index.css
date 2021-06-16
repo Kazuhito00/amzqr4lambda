@@ -83,7 +83,7 @@ label {
     font-weight: bold;
     font-size: 14px;
     font-size: 1.4em;
-    visibility: hidden;
+    display:none;
 }
 
 /* フッター */
