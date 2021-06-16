@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Amazing-QR</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Loading画面：QRコード生成時のみ表示 -->
+    <div id="loading">
+        <div class="spinner"></div>
+    </div>
+    
+    <div class="items02">
+        <!-- 左ペイン -->
+        <div class="item01">
+            <!-- QRコード用テキストボックス -->
+            <input type="text" id="qrText" onInput="checkForm(this)" placeholder="QRコードに保持する情報を入力し、画像を選択してください ※半角英数">
+            
+            <!-- QRコード用画像入力エリア -->
+            <form method="post" enctype="multipart/form-data">
+                <div id="dragDropArea">
+                    <p>ここにファイルをドロップ</p>
+                    <p class="dragDropButtons">
+                        または <label><input id="fileInput" type="file" accept="image/*" value="ファイルを選択" name="photo" onChange="photoPreview(event)">ファイルを選択</label>
+                    </p>
+                    <div id="previewArea"></div>
+                </div>
+            </form>
+        </div>
+        <!-- 右ペイン -->
+        <div class="item01">
+            <!-- QRコード表示エリア -->
+            <div id="resultArea">
+                <p>QRコード表示エリア</p>
+                <p id="errorMessage">QRコードを生成出来ませんでした<br>ファイルサイズを小さくするか<br>文字を少なくしてお試しください</p>
+                <img src="" id="image">
+            </div>
+            <!-- フッター -->
+            <p id="footer">GitHub : <a href="https://github.com/x-hw/amazing-qr">x-hw/amazing-qr</a>、<a href="https://github.com/x-hw/amazing-qr">x-hw/amazing-qr</a></p>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="index.js"></script>
+
+</html>
