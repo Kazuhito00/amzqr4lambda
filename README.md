@@ -11,7 +11,13 @@ Amazing-QRを用いて画像ファイルやアニメGifを用いたQRコード�
 https://kazuhito00.github.io/amzqr4lambda/html/index.html<br><br>
 
 コーヒーを奢ることで制限が緩和されるかもしれません☕
-<a href="https://www.buymeacoffee.com/Kazuhito00" target="_blank"><br><img src="https://cdn.buymeacoffee.com/buttons/default-white.png" alt="Buy Me A Coffee" height="36" width="170" >
+<a href="https://www.buymeacoffee.com/Kazuhito00" target="_blank"><br><img src="https://cdn.buymeacoffee.com/buttons/default-white.png" alt="Buy Me A Coffee" height="36" width="170" ><br><br>
+ 
+# Demo Architecture
+デモの構成は以下のようになっています。<br>
+アップロード画像はLambdaの一時領域に格納し、Lambda呼び出し完了時に破棄します。<br>
+アップロード画像、テキストはサーバー上に保持しないようにしています。<br>
+<img src="https://user-images.githubusercontent.com/37477845/122246239-58671680-cf01-11eb-8cf9-37504f502ae5.png" width="75%">
 
 # Reference
 * [x-hw/amazing-qr](https://github.com/x-hw/amazing-qr)
