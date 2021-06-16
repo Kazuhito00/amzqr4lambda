@@ -1,10 +1,10 @@
 # amzqr4lambda
-[Amazing-QR](https://github.com/x-hw/amazing-qr)をAWS Lambda上で動かしたサンプルです。<br><br>
+[Amazing-QR](https://github.com/x-hw/amazing-qr)をAWS Lambda上で動かしたサンプルです。<br>
+Amazing-QRを用いて画像ファイルやアニメGifを用いたQRコードが作成できます(埋め込める情報は半角英数字)<br><br>
 <img src="https://user-images.githubusercontent.com/37477845/122220319-2ea2f500-ceeb-11eb-9bf8-2e702e17035f.gif" width="70%">
 
 # Requirement 
-* mediapipe 0.8.5 or later
-* OpenCV 3.4.2 or later
+* Pillow 8.2.0 or later 
 
 # Demo
 デモページは以下です。
