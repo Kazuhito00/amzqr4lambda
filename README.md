@@ -8,7 +8,7 @@ Amazing-QRを用いて画像ファイルやアニメGifを用いたQRコード�
 デモページは以下です。<br>
 いったん、リクエスト回数を10000回/月に制限しています。<br>
 制限がかかっていてもご容赦ください。<br>
-https://kazuhito00.github.io/amzqr4lambda/html/index.html
+https://kazuhito00.github.io/amzqr4lambda/html/index.html<br><br>
 
 コーヒーを奢ることで制限が緩和されるかもしれません☕
 <a href="https://www.buymeacoffee.com/Kazuhito00" target="_blank"><br><img src="https://cdn.buymeacoffee.com/buttons/default-white.png" alt="Buy Me A Coffee" height="36" width="170" >
